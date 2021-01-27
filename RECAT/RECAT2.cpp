@@ -19,6 +19,7 @@
 #define MY_PLUGIN_COPYRIGHT "Free to be distributed as source code"
 #define MY_PLUGIN_VIEW      ""
 const int TAG_ITEM_RECAT = 155;
+const int TAG_ITEM_RECAT_NOSLASH = 12341;
 std::unordered_map<std::string, std::string> recatdict;
 CRECAT::CRECAT(void)
 	: CPlugIn(EuroScopePlugIn::COMPATIBILITY_CODE,
@@ -56,7 +57,7 @@ CRECAT::CRECAT(void)
 	LOG_F(INFO, "We successfully started RECAT. Opa!");
 
 	RegisterTagItemType("RECAT", TAG_ITEM_RECAT);
-
+	RegisterTagItemType("RECATnoSlash", TAG_ITEM_RECAT_NOSLASH);
 
 
 	LOG_F(INFO, "Everything registered. Ready to go!");
@@ -83,7 +84,7 @@ void CRECAT::OnGetTagItem(EuroScopePlugIn::CFlightPlan FlightPlan,
 	COLORREF * pRGB,
 	double * pFontSize)
 {
-	if (ItemCode != TAG_ITEM_RECAT) return;
+	if (ItemCode != TAG_ITEM_RECAT && ItemCode != TAG_ITEM_RECAT_NOSLASH) return;
 	std::string type = FlightPlan.GetFlightPlanData().GetAircraftInfo();
 	if (type.find("/") != std::string::npos)
 	{
@@ -97,36 +98,45 @@ void CRECAT::OnGetTagItem(EuroScopePlugIn::CFlightPlan FlightPlan,
 	auto found = recatdict.find(type);
 	if (found != recatdict.end())
 	{
-		std::string out = "/" + found->second;
+		std::string out =  found->second;
+		if (ItemCode == TAG_ITEM_RECAT)
+			out = "/" + found->second;
 		strcpy(sItemString,out.c_str());
 		return;
 	}
 	else
 	{
 		char wtc = FlightPlan.GetFlightPlanData().GetAircraftWtc();
+		std::string temp;
 		switch (wtc)
 		{
 		case 'J':
 		{
-			strcpy(sItemString,"/A");
+			temp = "A";
 			break;
 		}
 		case 'H':
 		{
-			strcpy(sItemString, "/B");
+			temp = "B";
 			break;
 		}
 		case 'M':
 		{
-			strcpy(sItemString, "/D");
+			temp = "D";
 			break;
 		}
 		case 'L':
 		{
-			strcpy(sItemString, "/G");
+			temp = "G";
 			break;
 		}
 		}
+		std::string out;
+		if (ItemCode == TAG_ITEM_RECAT)
+			out = "/" + temp;
+		else
+			out = temp;
+		strcpy(sItemString, out.c_str());
 	}
 }
 CRECAT::~CRECAT(void)
