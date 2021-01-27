@@ -97,7 +97,8 @@ void CRECAT::OnGetTagItem(EuroScopePlugIn::CFlightPlan FlightPlan,
 	auto found = recatdict.find(type);
 	if (found != recatdict.end())
 	{
-		strcpy(sItemString,found->second.c_str());
+		std::string out = "/" + found->second;
+		strcpy(sItemString,out.c_str());
 		return;
 	}
 	else
@@ -107,22 +108,22 @@ void CRECAT::OnGetTagItem(EuroScopePlugIn::CFlightPlan FlightPlan,
 		{
 		case 'J':
 		{
-			strcpy(sItemString,"A");
+			strcpy(sItemString,"/A");
 			break;
 		}
 		case 'H':
 		{
-			strcpy(sItemString, "B");
+			strcpy(sItemString, "/B");
 			break;
 		}
 		case 'M':
 		{
-			strcpy(sItemString, "D");
+			strcpy(sItemString, "/D");
 			break;
 		}
 		case 'L':
 		{
-			strcpy(sItemString, "G");
+			strcpy(sItemString, "/G");
 			break;
 		}
 		}
