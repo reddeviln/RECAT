@@ -1,0 +1,91 @@
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 10:28:40.129 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'StandAssigner.log', mode: 'a', verbosity: 0
+2021-01-27 10:28:40.141 (   0.012s) [StandAssigner   ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\StandAssigner\//20210127_102840.129.log', mode: 'w', verbosity: 0
+2021-01-27 10:28:40.141 (   0.012s) [StandAssigner   ]     standassigner2.cpp:89    INFO| We successfully started StandAssigner. Opa!
+2021-01-27 10:28:40.141 (   0.013s) [StandAssigner   ]     standassigner2.cpp:100   INFO| Everything registered. Ready to go!
+2021-01-27 10:28:40.143 (   0.014s) [StandAssigner   ]     standassigner2.cpp:113   INFO| Stand file read without issues!
+2021-01-27 10:28:40.143 (   0.014s) [StandAssigner   ]     standassigner2.cpp:123   INFO| Callsign mapping parsed successfully.
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 11:24:01.984 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'StandAssigner.log', mode: 'a', verbosity: 0
+2021-01-27 11:24:01.984 (   0.001s) [StandAssigner   ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\StandAssigner\//20210127_112401.984.log', mode: 'w', verbosity: 0
+2021-01-27 11:24:01.984 (   0.001s) [StandAssigner   ]     standassigner2.cpp:89    INFO| We successfully started StandAssigner. Opa!
+2021-01-27 11:24:01.984 (   0.001s) [StandAssigner   ]     standassigner2.cpp:100   INFO| Everything registered. Ready to go!
+2021-01-27 11:24:01.986 (   0.002s) [StandAssigner   ]     standassigner2.cpp:113   INFO| Stand file read without issues!
+2021-01-27 11:24:01.986 (   0.002s) [StandAssigner   ]     standassigner2.cpp:123   INFO| Callsign mapping parsed successfully.
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 11:44:42.596 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'StandAssigner.log', mode: 'a', verbosity: 0
+2021-01-27 11:44:42.596 (   0.000s) [StandAssigner   ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\StandAssigner\//20210127_114442.596.log', mode: 'w', verbosity: 0
+2021-01-27 11:44:42.596 (   0.000s) [StandAssigner   ]     standassigner2.cpp:89    INFO| We successfully started StandAssigner. Opa!
+2021-01-27 11:44:42.596 (   0.000s) [StandAssigner   ]     standassigner2.cpp:100   INFO| Everything registered. Ready to go!
+2021-01-27 11:44:42.612 (   0.016s) [StandAssigner   ]     standassigner2.cpp:113   INFO| Stand file read without issues!
+2021-01-27 11:44:42.613 (   0.017s) [StandAssigner   ]     standassigner2.cpp:123   INFO| Callsign mapping parsed successfully.
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 11:47:02.584 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'StandAssigner.log', mode: 'a', verbosity: 0
+2021-01-27 11:47:02.584 (   0.000s) [StandAssigner   ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\StandAssigner\//20210127_114702.584.log', mode: 'w', verbosity: 0
+2021-01-27 11:47:02.584 (   0.000s) [StandAssigner   ]     standassigner2.cpp:89    INFO| We successfully started StandAssigner. Opa!
+2021-01-27 11:47:02.584 (   0.000s) [StandAssigner   ]     standassigner2.cpp:100   INFO| Everything registered. Ready to go!
+2021-01-27 11:47:02.585 (   0.002s) [StandAssigner   ]     standassigner2.cpp:113   INFO| Stand file read without issues!
+2021-01-27 11:47:02.585 (   0.002s) [StandAssigner   ]     standassigner2.cpp:123   INFO| Callsign mapping parsed successfully.
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 11:58:15.319 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'StandAssigner.log', mode: 'a', verbosity: 0
+2021-01-27 11:58:15.319 (   0.001s) [StandAssigner   ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\StandAssigner\//20210127_115815.319.log', mode: 'w', verbosity: 0
+2021-01-27 11:58:15.319 (   0.001s) [StandAssigner   ]     standassigner2.cpp:89    INFO| We successfully started StandAssigner. Opa!
+2021-01-27 11:58:15.319 (   0.001s) [StandAssigner   ]     standassigner2.cpp:100   INFO| Everything registered. Ready to go!
+2021-01-27 11:58:15.321 (   0.002s) [StandAssigner   ]     standassigner2.cpp:113   INFO| Stand file read without issues!
+2021-01-27 11:58:15.321 (   0.003s) [StandAssigner   ]     standassigner2.cpp:123   INFO| Callsign mapping parsed successfully.
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 12:01:59.030 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'StandAssigner.log', mode: 'a', verbosity: 0
+2021-01-27 12:01:59.030 (   0.001s) [StandAssigner   ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\StandAssigner\//20210127_120159.030.log', mode: 'w', verbosity: 0
+2021-01-27 12:01:59.031 (   0.001s) [StandAssigner   ]     standassigner2.cpp:89    INFO| We successfully started StandAssigner. Opa!
+2021-01-27 12:01:59.031 (   0.001s) [StandAssigner   ]     standassigner2.cpp:100   INFO| Everything registered. Ready to go!
+2021-01-27 12:01:59.032 (   0.003s) [StandAssigner   ]     standassigner2.cpp:113   INFO| Stand file read without issues!
+2021-01-27 12:01:59.033 (   0.003s) [StandAssigner   ]     standassigner2.cpp:123   INFO| Callsign mapping parsed successfully.
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 12:05:17.814 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'StandAssigner.log', mode: 'a', verbosity: 0
+2021-01-27 12:05:17.815 (   0.001s) [StandAssigner   ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\StandAssigner\//20210127_120517.814.log', mode: 'w', verbosity: 0
+2021-01-27 12:05:17.815 (   0.001s) [StandAssigner   ]     standassigner2.cpp:89    INFO| We successfully started StandAssigner. Opa!
+2021-01-27 12:05:17.815 (   0.001s) [StandAssigner   ]     standassigner2.cpp:100   INFO| Everything registered. Ready to go!
+2021-01-27 12:05:17.818 (   0.004s) [StandAssigner   ]     standassigner2.cpp:113   INFO| Stand file read without issues!
+2021-01-27 12:05:17.818 (   0.004s) [StandAssigner   ]     standassigner2.cpp:123   INFO| Callsign mapping parsed successfully.

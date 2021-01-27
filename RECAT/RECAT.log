@@ -1,0 +1,84 @@
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 10:29:40.948 (   0.001s) [                ]             loguru.cpp:793   INFO| Logging to 'RECAT.log', mode: 'a', verbosity: 0
+2021-01-27 10:29:40.949 (   0.001s) [RECAT           ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RECAT\//20210127_102940.948.log', mode: 'w', verbosity: 0
+2021-01-27 10:29:40.949 (   0.002s) [RECAT           ]             recat2.cpp:56    INFO| We successfully started RECAT. Opa!
+2021-01-27 10:29:40.949 (   0.002s) [RECAT           ]             recat2.cpp:62    INFO| Everything registered. Ready to go!
+2021-01-27 10:29:40.954 (   0.006s) [RECAT           ]             recat2.cpp:72    INFO| RECAT dictionary read without issues!
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 11:24:40.098 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'RECAT.log', mode: 'a', verbosity: 0
+2021-01-27 11:24:40.098 (   0.001s) [RECAT           ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RECAT\//20210127_112440.098.log', mode: 'w', verbosity: 0
+2021-01-27 11:24:40.098 (   0.001s) [RECAT           ]             recat2.cpp:56    INFO| We successfully started RECAT. Opa!
+2021-01-27 11:24:40.099 (   0.001s) [RECAT           ]             recat2.cpp:62    INFO| Everything registered. Ready to go!
+2021-01-27 11:24:40.103 (   0.006s) [RECAT           ]             recat2.cpp:72    INFO| RECAT dictionary read without issues!
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 11:45:01.874 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'RECAT.log', mode: 'a', verbosity: 0
+2021-01-27 11:45:01.875 (   0.001s) [RECAT           ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RECAT\//20210127_114501.874.log', mode: 'w', verbosity: 0
+2021-01-27 11:45:01.875 (   0.001s) [RECAT           ]             recat2.cpp:56    INFO| We successfully started RECAT. Opa!
+2021-01-27 11:45:01.875 (   0.001s) [RECAT           ]             recat2.cpp:62    INFO| Everything registered. Ready to go!
+2021-01-27 11:45:01.879 (   0.005s) [RECAT           ]             recat2.cpp:72    INFO| RECAT dictionary read without issues!
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 11:54:51.731 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'RECAT.log', mode: 'a', verbosity: 0
+2021-01-27 11:54:51.732 (   0.001s) [RECAT           ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RECAT\//20210127_115451.731.log', mode: 'w', verbosity: 0
+2021-01-27 11:54:51.732 (   0.001s) [RECAT           ]             recat2.cpp:56    INFO| We successfully started RECAT. Opa!
+2021-01-27 11:54:51.732 (   0.001s) [RECAT           ]             recat2.cpp:62    INFO| Everything registered. Ready to go!
+2021-01-27 11:54:51.737 (   0.006s) [RECAT           ]             recat2.cpp:72    INFO| RECAT dictionary read without issues!
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 11:58:42.545 (   0.001s) [                ]             loguru.cpp:793   INFO| Logging to 'RECAT.log', mode: 'a', verbosity: 0
+2021-01-27 11:58:42.546 (   0.001s) [RECAT           ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RECAT\//20210127_115842.545.log', mode: 'w', verbosity: 0
+2021-01-27 11:58:42.546 (   0.001s) [RECAT           ]             recat2.cpp:56    INFO| We successfully started RECAT. Opa!
+2021-01-27 11:58:42.546 (   0.001s) [RECAT           ]             recat2.cpp:62    INFO| Everything registered. Ready to go!
+2021-01-27 11:58:42.551 (   0.006s) [RECAT           ]             recat2.cpp:72    INFO| RECAT dictionary read without issues!
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 12:02:24.990 (   0.001s) [                ]             loguru.cpp:793   INFO| Logging to 'RECAT.log', mode: 'a', verbosity: 0
+2021-01-27 12:02:24.994 (   0.005s) [RECAT           ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RECAT\//20210127_120224.990.log', mode: 'w', verbosity: 0
+2021-01-27 12:02:24.994 (   0.005s) [RECAT           ]             recat2.cpp:56    INFO| We successfully started RECAT. Opa!
+2021-01-27 12:02:24.994 (   0.005s) [RECAT           ]             recat2.cpp:62    INFO| Everything registered. Ready to go!
+2021-01-27 12:02:25.000 (   0.011s) [RECAT           ]             recat2.cpp:72    INFO| RECAT dictionary read without issues!
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-01-27 12:05:42.412 (   0.001s) [                ]             loguru.cpp:793   INFO| Logging to 'RECAT.log', mode: 'a', verbosity: 0
+2021-01-27 12:05:42.413 (   0.001s) [RECAT           ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RECAT\//20210127_120542.413.log', mode: 'w', verbosity: 0
+2021-01-27 12:05:42.413 (   0.001s) [RECAT           ]             recat2.cpp:56    INFO| We successfully started RECAT. Opa!
+2021-01-27 12:05:42.413 (   0.001s) [RECAT           ]             recat2.cpp:62    INFO| Everything registered. Ready to go!
+2021-01-27 12:05:42.418 (   0.006s) [RECAT           ]             recat2.cpp:72    INFO| RECAT dictionary read without issues!

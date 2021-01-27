@@ -1,0 +1,5 @@
+﻿  RECAT2.cpp
+c:\users\nils\source\repos\recat\recat\csv.h(173): warning C4244: 'return': conversion from 'std::streamsize' to 'int', possible loss of data
+c:\users\nils\source\repos\recat\recat\csv.h(189): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+     Creating library C:\Users\Nils\source\repos\RECAT\Debug\RECAT.lib and object C:\Users\Nils\source\repos\RECAT\Debug\RECAT.exp
+  RECAT.vcxproj -> C:\Users\Nils\source\repos\RECAT\Debug\RECAT.dll
