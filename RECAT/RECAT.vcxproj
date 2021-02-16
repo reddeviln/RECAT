@@ -95,6 +95,8 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>I:\Documents\Euroscope\omae\OMAE\Plugins\Topsky;C:\Program Files %28x86%29\EuroScope\PlugInEnvironment;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnableModules>false</EnableModules>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -145,6 +147,8 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>I:\Documents\Euroscope\omae\OMAE\Plugins\Topsky;C:\Program Files %28x86%29\EuroScope\PlugInEnvironment;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnableModules>false</EnableModules>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -199,6 +203,7 @@
     </ClCompile>
     <ClCompile Include="RECAT.cpp" />
     <ClCompile Include="RECAT2.cpp" />
+    <ClCompile Include="TimerRadar.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="RECAT.def" />
@@ -211,6 +216,7 @@
     <ClInclude Include="RECAT2.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TimerRadar.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RECAT.rc" />

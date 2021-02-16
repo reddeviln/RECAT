@@ -1,5 +1,8 @@
-﻿  RECAT2.cpp
+﻿  TimerRadar.cpp
 c:\users\nils\source\repos\recat\recat\csv.h(173): warning C4244: 'return': conversion from 'std::streamsize' to 'int', possible loss of data
 c:\users\nils\source\repos\recat\recat\csv.h(189): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
-     Creating library C:\Users\Nils\source\repos\RECAT\Debug\RECAT.lib and object C:\Users\Nils\source\repos\RECAT\Debug\RECAT.exp
+c:\users\nils\source\repos\recat\recat\timerradar.cpp(61): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\nils\source\repos\recat\recat\timerradar.cpp(61): warning C4244: 'argument': conversion from 'LONG' to 'Gdiplus::REAL', possible loss of data
+c:\users\nils\source\repos\recat\recat\timerradar.cpp(79): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\nils\source\repos\recat\recat\timerradar.cpp(79): warning C4244: 'argument': conversion from 'LONG' to 'Gdiplus::REAL', possible loss of data
   RECAT.vcxproj -> C:\Users\Nils\source\repos\RECAT\Debug\RECAT.dll

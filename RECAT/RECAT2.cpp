@@ -12,6 +12,7 @@
 #include <unordered_map>
 #include <utility>
 #include <random>
+#include "TimerRadar.h"
 
 #define MY_PLUGIN_NAME      "RECAT UAEvACC"
 #define MY_PLUGIN_VERSION   "1.0"
@@ -21,6 +22,7 @@
 const int TAG_ITEM_RECAT = 155;
 const int TAG_ITEM_RECAT_NOSLASH = 12341;
 std::unordered_map<std::string, std::string> recatdict;
+std::string directory;
 CRECAT::CRECAT(void)
 	: CPlugIn(EuroScopePlugIn::COMPATIBILITY_CODE,
 		MY_PLUGIN_NAME,
@@ -59,7 +61,7 @@ CRECAT::CRECAT(void)
 	RegisterTagItemType("RECAT", TAG_ITEM_RECAT);
 	RegisterTagItemType("RECATnoSlash", TAG_ITEM_RECAT_NOSLASH);
 
-
+	directory = dir;
 	LOG_F(INFO, "Everything registered. Ready to go!");
 	dir += "OMDB.csv";
 	io::CSVReader<2, io::trim_chars<' '>, io::no_quote_escape<','>> in(dir);
@@ -72,8 +74,16 @@ CRECAT::CRECAT(void)
 	}
 	LOG_F(INFO, "RECAT dictionary read without issues!");
 	
-
-
+	
+}
+EuroScopePlugIn::CRadarScreen    *CRECAT::OnRadarScreenCreated(const char * sDisplayName,
+	bool NeedRadarContent,
+	bool GeoReferenced,
+	bool CanBeSaved,
+	bool CanBeCreated)
+{
+	TimerRadar * myscreen = new TimerRadar(TimerRadar::to_wstring(directory));
+	return myscreen;
 }
 void CRECAT::OnGetTagItem(EuroScopePlugIn::CFlightPlan FlightPlan,
 	EuroScopePlugIn::CRadarTarget RadarTarget,

@@ -51,8 +51,11 @@ public:
 		int * pColorCode,
 		COLORREF * pRGB,
 		double * pFontSize);
-	/*This function overrides a Euroscope function. It determines what value to show for our new TAG items "CTOT" and "TOBT" and is called automatically by euroscope every few seconds
-	  detailed info on the input and output values can be found in the EuroScopePlugIn.h header
-	*/
+	
+	virtual EuroScopePlugIn::CRadarScreen    *OnRadarScreenCreated(const char * sDisplayName,
+		bool NeedRadarContent,
+		bool GeoReferenced,
+		bool CanBeSaved,
+		bool CanBeCreated);
 
 };

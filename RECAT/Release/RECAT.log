@@ -1,10 +1,19 @@
-﻿  RECAT2.cpp
+﻿  TimerRadar.cpp
 c:\users\nils\source\repos\recat\recat\csv.h(173): warning C4244: 'return': conversion from 'std::streamsize' to 'int', possible loss of data
 c:\users\nils\source\repos\recat\recat\csv.h(189): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
      Creating library C:\Users\Nils\source\repos\RECAT\Release\RECAT.lib and object C:\Users\Nils\source\repos\RECAT\Release\RECAT.exp
-  Generating code
-  59 of 1982 functions ( 3.0%) were compiled, the rest were copied from previous compilation.
-    5 functions were new in current compilation
-    52 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  RECAT.vcxproj -> C:\Users\Nils\source\repos\RECAT\Release\RECAT.dll
+RECAT2.obj : error LNK2001: unresolved external symbol "public: virtual class EuroScopePlugIn::CRadarScreen * __thiscall CRECAT::OnRadarScreenCreated(char const *,bool,bool,bool,bool)" (?OnRadarScreenCreated@CRECAT@@UAEPAVCRadarScreen@EuroScopePlugIn@@PBD_N111@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall TimerRadar::~TimerRadar(void)" (??1TimerRadar@@UAE@XZ)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnAsrContentLoaded(bool)" (?OnAsrContentLoaded@TimerRadar@@UAEX_N@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnAsrContentToBeSaved(void)" (?OnAsrContentToBeSaved@TimerRadar@@UAEXXZ)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnRefresh(struct HDC__ *,int)" (?OnRefresh@TimerRadar@@UAEXPAUHDC__@@H@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnAsrContentToBeClosed(void)" (?OnAsrContentToBeClosed@TimerRadar@@UAEXXZ)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnRadarTargetPositionUpdate(class EuroScopePlugIn::CRadarTarget)" (?OnRadarTargetPositionUpdate@TimerRadar@@UAEXVCRadarTarget@EuroScopePlugIn@@@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnFlightPlanDisconnect(class EuroScopePlugIn::CFlightPlan)" (?OnFlightPlanDisconnect@TimerRadar@@UAEXVCFlightPlan@EuroScopePlugIn@@@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall TimerRadar::OnCompileCommand(char const *)" (?OnCompileCommand@TimerRadar@@UAE_NPBD@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnOverScreenObject(int,char const *,struct tagPOINT,struct tagRECT)" (?OnOverScreenObject@TimerRadar@@UAEXHPBDUtagPOINT@@UtagRECT@@@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnClickScreenObject(int,char const *,struct tagPOINT,struct tagRECT,int)" (?OnClickScreenObject@TimerRadar@@UAEXHPBDUtagPOINT@@UtagRECT@@H@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnMoveScreenObject(int,char const *,struct tagPOINT,struct tagRECT,bool)" (?OnMoveScreenObject@TimerRadar@@UAEXHPBDUtagPOINT@@UtagRECT@@_N@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall TimerRadar::OnFunctionCall(int,char const *,struct tagPOINT,struct tagRECT)" (?OnFunctionCall@TimerRadar@@UAEXHPBDUtagPOINT@@UtagRECT@@@Z)
+TimerRadar.obj : error LNK2001: unresolved external symbol "public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall TimerRadar::GetBottomLine(char const *)" (?GetBottomLine@TimerRadar@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD@Z)
+C:\Users\Nils\source\repos\RECAT\Release\RECAT.dll : fatal error LNK1120: 14 unresolved externals
