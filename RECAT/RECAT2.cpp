@@ -57,7 +57,7 @@ CRECAT::CRECAT(void)
 	loguru::suggest_log_path(dir.c_str(), logpath, sizeof(logpath));
 	loguru::add_file(logpath, loguru::FileMode::Truncate, loguru::Verbosity_INFO);
 	LOG_F(INFO, "We successfully started RECAT. Opa!");
-
+	//RegisterDisplayType("Timer", false, true, true, true);
 	RegisterTagItemType("RECAT", TAG_ITEM_RECAT);
 	RegisterTagItemType("RECATnoSlash", TAG_ITEM_RECAT_NOSLASH);
 
@@ -82,6 +82,8 @@ EuroScopePlugIn::CRadarScreen    *CRECAT::OnRadarScreenCreated(const char * sDis
 	bool CanBeSaved,
 	bool CanBeCreated)
 {
+	if (strcmp(sDisplayName, "Timer") == 0)
+		return NULL;
 	TimerRadar * myscreen = new TimerRadar(TimerRadar::to_wstring(directory));
 	return myscreen;
 }

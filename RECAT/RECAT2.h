@@ -1,7 +1,7 @@
 #pragma once
 #pragma warning(disable : 4996)
-#include "EuroScopePlugIn.h"
 #include "pch.h"
+#include "EuroScopePlugIn.h"
 #include <vector>
 #include "csv.h"
 #include "loguru.hpp"

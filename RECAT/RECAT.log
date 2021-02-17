@@ -82,3 +82,27 @@ date       time         ( uptime  ) [ thread name/id ]                   file:li
 2021-01-27 12:05:42.413 (   0.001s) [RECAT           ]             recat2.cpp:56    INFO| We successfully started RECAT. Opa!
 2021-01-27 12:05:42.413 (   0.001s) [RECAT           ]             recat2.cpp:62    INFO| Everything registered. Ready to go!
 2021-01-27 12:05:42.418 (   0.006s) [RECAT           ]             recat2.cpp:72    INFO| RECAT dictionary read without issues!
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-02-17 10:40:15.635 (   0.001s) [                ]             loguru.cpp:793   INFO| Logging to 'RECAT.log', mode: 'a', verbosity: 0
+2021-02-17 10:40:15.636 (   0.001s) [RECAT           ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RECAT\//20210217_104015.635.log', mode: 'w', verbosity: 0
+2021-02-17 10:40:15.636 (   0.001s) [RECAT           ]             recat2.cpp:59    INFO| We successfully started RECAT. Opa!
+2021-02-17 10:40:15.636 (   0.001s) [RECAT           ]             recat2.cpp:65    INFO| Everything registered. Ready to go!
+2021-02-17 10:40:15.640 (   0.006s) [RECAT           ]             recat2.cpp:75    INFO| RECAT dictionary read without issues!
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-02-17 10:41:43.951 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'RECAT.log', mode: 'a', verbosity: 0
+2021-02-17 10:41:43.952 (   0.002s) [RECAT           ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RECAT\//20210217_104143.952.log', mode: 'w', verbosity: 0
+2021-02-17 10:41:43.952 (   0.002s) [RECAT           ]             recat2.cpp:59    INFO| We successfully started RECAT. Opa!
+2021-02-17 10:41:43.952 (   0.002s) [RECAT           ]             recat2.cpp:65    INFO| Everything registered. Ready to go!
+2021-02-17 10:41:43.957 (   0.006s) [RECAT           ]             recat2.cpp:75    INFO| RECAT dictionary read without issues!

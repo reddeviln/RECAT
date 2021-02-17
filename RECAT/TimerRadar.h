@@ -6,6 +6,10 @@ using std::min;
 using std::max;
 #include <gdiplus.h>
 #include <filesystem>
+#include<future>
+#include <chrono>
+#include<sstream>
+
 #pragma comment(lib,"gdiplus.lib")
 
 
@@ -25,10 +29,13 @@ public:
 
 	virtual void OnAsrContentToBeSaved();
 	inline static Gdiplus::Rect CopyRect(CRect &rect)
-{
-	return Gdiplus::Rect(rect.left, rect.top, rect.Width(), rect.Height());
-};
-
+	{
+		return Gdiplus::Rect(rect.left, rect.top, rect.Width(), rect.Height());
+	}
+	void startTimer(int sec);
+	int GetSecondsRemaining();
+	std::wstringstream GetCurrentTimeString(int secondsRemaining);
+	void cancelTimer();
 	//---OnRefresh------------------------------------------------------
 
 	virtual void OnRefresh(HDC hDC, int Phase);

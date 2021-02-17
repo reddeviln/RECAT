@@ -5656,3 +5656,25 @@ date       time         ( uptime  ) [ thread name/id ]                   file:li
 2021-01-27 12:06:16.403 (  58.696s) [RouteChecker    ]      routechecker2.cpp:169   INFO| Using dummy route to OP for PIA214
 2021-01-27 12:06:16.405 (  58.698s) [RouteChecker    ]      routechecker2.cpp:153   INFO| Found a designated route to HECA for MSR927
 2021-01-27 12:06:16.406 (  58.699s) [RouteChecker    ]      routechecker2.cpp:169   INFO| Using dummy route to LT for UAE119
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-02-17 10:40:15.374 (   0.001s) [                ]             loguru.cpp:793   INFO| Logging to 'RouteChecker.log', mode: 'a', verbosity: 0
+2021-02-17 10:40:15.374 (   0.002s) [RouteChecker    ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RouteChecker\//20210217_104015.374.log', mode: 'w', verbosity: 0
+2021-02-17 10:40:15.374 (   0.002s) [RouteChecker    ]      routechecker2.cpp:73    INFO| We successfully started routeChecker. Great Success!
+2021-02-17 10:40:15.374 (   0.002s) [RouteChecker    ]      routechecker2.cpp:82    INFO| Everything registered. Ready to go!
+
+
+
+
+
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-02-17 10:41:43.876 (   0.000s) [                ]             loguru.cpp:793   INFO| Logging to 'RouteChecker.log', mode: 'a', verbosity: 0
+2021-02-17 10:41:43.876 (   0.001s) [RouteChecker    ]             loguru.cpp:793   INFO| Logging to 'I:\Documents\Euroscope\OMAE\OMAE\Plugins\RouteChecker\//20210217_104143.876.log', mode: 'w', verbosity: 0
+2021-02-17 10:41:43.876 (   0.001s) [RouteChecker    ]      routechecker2.cpp:73    INFO| We successfully started routeChecker. Great Success!
+2021-02-17 10:41:43.876 (   0.001s) [RouteChecker    ]      routechecker2.cpp:82    INFO| Everything registered. Ready to go!

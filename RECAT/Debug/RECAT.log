@@ -1,8 +1,13 @@
-﻿  TimerRadar.cpp
+﻿  RECAT2.cpp
 c:\users\nils\source\repos\recat\recat\csv.h(173): warning C4244: 'return': conversion from 'std::streamsize' to 'int', possible loss of data
 c:\users\nils\source\repos\recat\recat\csv.h(189): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
-c:\users\nils\source\repos\recat\recat\timerradar.cpp(61): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
-c:\users\nils\source\repos\recat\recat\timerradar.cpp(61): warning C4244: 'argument': conversion from 'LONG' to 'Gdiplus::REAL', possible loss of data
-c:\users\nils\source\repos\recat\recat\timerradar.cpp(79): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
-c:\users\nils\source\repos\recat\recat\timerradar.cpp(79): warning C4244: 'argument': conversion from 'LONG' to 'Gdiplus::REAL', possible loss of data
+  TimerRadar.cpp
+c:\users\nils\source\repos\recat\recat\csv.h(173): warning C4244: 'return': conversion from 'std::streamsize' to 'int', possible loss of data
+c:\users\nils\source\repos\recat\recat\csv.h(189): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\nils\source\repos\recat\recat\timerradar.cpp(63): warning C4553: '==': result of expression not used; did you intend '='?
+c:\users\nils\source\repos\recat\recat\timerradar.cpp(117): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\nils\source\repos\recat\recat\timerradar.cpp(117): warning C4244: 'argument': conversion from 'LONG' to 'Gdiplus::REAL', possible loss of data
+c:\users\nils\source\repos\recat\recat\timerradar.cpp(125): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\nils\source\repos\recat\recat\timerradar.cpp(125): warning C4244: 'argument': conversion from 'LONG' to 'Gdiplus::REAL', possible loss of data
+  Generating Code...
   RECAT.vcxproj -> C:\Users\Nils\source\repos\RECAT\Debug\RECAT.dll
